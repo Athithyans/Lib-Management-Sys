@@ -1,2 +1,23 @@
-# Lib-Management-Sys
-A basic library management system created with Flask is a web application designed to help manage library operations such as cataloging books, managing borrowers, tracking book loans, and facilitating library staff tasks.
+
+## Installation
+
+To run the app flawlessly, satisfy the requirements
+```bash
+$ pip install -r requirements.txt
+```
+
+## Set Environment Variables
+```bash
+$ export FLASK_APP=app.py
+$ export FLASk_ENV=development
+```
+
+## Start Server
+```bash
+$ flask run
+```
+
+Or run this command 
+```bash
+$ python -m flask run
+```
